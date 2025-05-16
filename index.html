@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <span class="info_text">Everyday <br> is a fresh start <span>_</span></span>
+        </div>
+        <div class="login">
+            <h2 class="title">Welcome back!</h2>
+            <form id="loginForm" class="login_form">
+                <div id="errorBanner" class="error-banner">
+                    <span id="errorText" class="error-text">Incorrect user or password</span>
+                    <button type="button" class="dismiss-banner">&times</button>
+                </div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="login_input" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="login_input" required>
+                <input type="submit" value="Login" class="login_btn" id="loginButton">
+            </form>
+            <div class="links">
+                <a href="#">forget password</a>
+                <a href="#">sign up</a>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
